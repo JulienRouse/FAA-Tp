@@ -39,6 +39,8 @@ def calc_theta(x,y,m=30):
     return mat,theta
 
 
+
+
 #k-fold validation
 # k c'est le nombre de fold
 # n le nombre de donnée
