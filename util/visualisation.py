@@ -46,6 +46,11 @@ def plot_tp4(theta):
     
     
 
+def plot_tp2(theta):
+    '''
+    '''
+    plot_tp3(theta,0)
+    show()
 
 if __name__ == '__main__':
     pass
