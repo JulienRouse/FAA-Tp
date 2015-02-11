@@ -38,5 +38,19 @@ def plot_tp3(theta,n=20):
         y = y + tmp
     pylab.plot(x,y,'g-')
 
+def plot_tp4(theta):
+    '''
+    plot a line
+    '''
+    x = np.arange(-20,20,0.2)
+    
+    
+
+def plot_tp2(theta):
+    '''
+    '''
+    plot_tp3(theta,0)
+    show()
+
 if __name__ == '__main__':
     pass

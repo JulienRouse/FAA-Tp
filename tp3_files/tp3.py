@@ -39,12 +39,9 @@ def calc_theta(x,y,m=50):
     return mat,theta
 
 
+
 def mse():
-    '''
-    Mean Squared Error
-    '''
-
-
+    pass
 
 #k-fold validation
 # k c'est le nombre de fold
