@@ -12,7 +12,7 @@ def load_data():
     return x,y
 
 #moindre carré  avec X devenu phi(X), vecteur de fonctions ([1,x,x^2,x^3...x^m])
-def calc_theta(x,y,m=30):
+def calc_theta(x,y,m=50):
     line = np.zeros(x.shape)
     mat = np.ones((x.shape))
     theta = []
@@ -37,6 +37,13 @@ def calc_theta(x,y,m=30):
         
         theta.append(theta_i)
     return mat,theta
+
+
+def mse():
+    '''
+    Mean Squared Error
+    '''
+
 
 
 #k-fold validation
